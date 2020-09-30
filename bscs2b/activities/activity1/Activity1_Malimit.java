@@ -1,14 +1,15 @@
-class GreatestValue{
+class Variables{
 	public static void main(String[]args) {
-		int number1 = 10, number2 = 23, number3 = 5;
-	
-		// int greatestValue = (number1 > number2 ? number1 : number2) > number3 ? (number1 > number2 ? number1 : number2) : number3;		
+		int number = 10;
+		char letter = 'a';
+		boolean result = true;
+		String str = "hello";
 
 		System.out.println(
-			"number 1 = "+number1+"\n"+
-			"number 2 = "+number2+"\n"+
-			"number 3 = "+number3+"\n"+
-			"The highest number is = " + ((number1 > number2 ? number1 : number2) > number3 ? (number1 > number2 ? number1 : number2) : number3)
+			"Number = "+number+"\n"+
+			"letter = "+letter+"\n"+
+			"result = "+result+"\n"+
+			"str = "+str
 		);
 	}
 }
@@ -26,18 +27,17 @@ class AverageOfThree{
 	}
 }
 
-class Variables{
+class GreatestValue{
 	public static void main(String[]args) {
-		int number = 10;
-		char letter = 'a';
-		boolean result = true;
-		String str = "hello";
+		int number1 = 10, number2 = 23, number3 = 5;
+	
+		// int greatestValue = (number1 > number2 ? number1 : number2) > number3 ? (number1 > number2 ? number1 : number2) : number3;		
 
 		System.out.println(
-			"Number = "+number+"\n"+
-			"letter = "+letter+"\n"+
-			"result = "+result+"\n"+
-			"str = "+str
+			"number 1 = "+number1+"\n"+
+			"number 2 = "+number2+"\n"+
+			"number 3 = "+number3+"\n"+
+			"The highest number is = " + ((number1 > number2 ? number1 : number2) > number3 ? (number1 > number2 ? number1 : number2) : number3)
 		);
 	}
 }
