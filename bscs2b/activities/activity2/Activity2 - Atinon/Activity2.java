@@ -17,7 +17,7 @@ public class Activity2{
 	int sum = num1 + num2;
 	int prod = num1 * num2;
 	int diff = num1 - num2;
-	int quo = num1 / num2;
+	int quo = num1/num2;
 	int remain = num1 % num2;
 
 
