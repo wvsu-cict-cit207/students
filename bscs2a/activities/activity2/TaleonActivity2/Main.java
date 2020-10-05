@@ -28,9 +28,10 @@ public class Main {
 
         //Displaying Output
         String outputMessage = "Sum: " + Float.toString(sum) + "\n" +
-                                "Product: " + Float.toString(difference) + "\n" +
+                                "Product: " + Float.toString(product) + "\n" +
                                 "Difference: " + Float.toString(difference) + "\n" +
-                                "Quotient: " + Float.toString(quotient);
+                                "Quotient: " + Float.toString(quotient) + "\n" +
+                                "Remainder: " + Float.toString(remainder);
         JOptionPane.showMessageDialog(null, outputMessage);
     }
 }
