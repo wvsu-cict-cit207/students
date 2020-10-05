@@ -10,7 +10,7 @@ public class Main {
         JTextField secondInput = new JTextField();
         Object[] message = {
                 "Enter First Number:", firstInput,
-                "Password:", secondInput
+                "Enter Second Number:", secondInput
         };
 
         //Receiving Input String
