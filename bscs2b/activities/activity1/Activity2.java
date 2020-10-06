@@ -1,5 +1,5 @@
 // Exercises 4.11.2 Getting the average of three numbers
-public class Average {
+public class Activity2 {
 	public static void main(String[] args) {
 
 		int num1 = 10;
