@@ -1,5 +1,5 @@
 // Exercises 4.11.1 Declaring and printing variables
-public class VariableDeclaration {
+public class Activity1 {
 	public static void main(String[] args) {
 
 		int number = 10;
