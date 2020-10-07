@@ -27,11 +27,13 @@ public class Main {
         
         int sum = n1 + n2;
         int difference = n1 - n2;
+        int product = n1 * n2;
         int qoutient = n1 / n2;
         int remainder = n1 % n2;
         
         System.out.println("Sum: " + sum);
         System.out.println("Difference: " + difference);
+        System.out.println("Product: " + product);
         System.out.println("Qoutient: " + qoutient);
         System.out.println("Remainder: " + remainder);
     }
