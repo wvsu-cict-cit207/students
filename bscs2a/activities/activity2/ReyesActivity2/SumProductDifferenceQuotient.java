@@ -13,6 +13,7 @@ public class SumProductDifferenceQuotient {
         System.out.printf("Product = %d%n", int1 * int2);
         System.out.printf("Difference = %d%n", int1 - int2);
         System.out.printf("Quotient = %d%n", int1 / int2);
+        System.out.printf("Remainder = %d%n", int1 % int2);
     }
     
 }
