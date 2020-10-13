@@ -27,7 +27,7 @@ public class Activity4 {
 
                 System.out.println("You have entered: " + fahrenheit + "\u2109");
 
-                double result2 = (fahrenheit - 32) + 5/9;
+                double result2 = (fahrenheit - 32) * 5/9;
 
                 System.out.print("The converted temperature is " + result2 + "\u2103");
                 break;
