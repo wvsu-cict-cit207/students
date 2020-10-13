@@ -20,7 +20,7 @@ public class TemperatureConverter {
                 System.out.println("F -> C");
                 System.out.print("Enter Farenheit: ");
                 double farenheit = scan.nextDouble();
-                System.out.println(farenheit + "\u2109" + " to \u2103 is " + ((farenheit - 32) * 5/9) + "\u2109");
+                System.out.println(farenheit + "\u2109" + " to \u2103 is " + ((farenheit - 32) * 5/9) + "\u2103");
                 break;
             default:
                 System.out.println("Invalid!");
