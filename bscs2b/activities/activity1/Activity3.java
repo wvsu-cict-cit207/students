@@ -1,5 +1,5 @@
 // Exercises 4.11.3 Output greatest value
-public class GreatestValue {
+public class Activity3 {
 	public static void main(String[] args) {
 
 		int num1 = 10;
