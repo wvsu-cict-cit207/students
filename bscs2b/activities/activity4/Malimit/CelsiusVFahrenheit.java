@@ -23,6 +23,6 @@ class CelsiusVFarenheit {
     static double tempConvert(int choice) {
         System.out.print("Enter temperature: ");
         double temp = in.nextDouble();
-        return (choice == 1 ? (temp = (temp *= 1.8) + 32) : (temp = (temp -= 32) * 1.8));
+        return (choice == 1 ? (temp = (temp *= 1.8) + 32) : (temp = (temp -= 32) / 1.8));
     }
 }
