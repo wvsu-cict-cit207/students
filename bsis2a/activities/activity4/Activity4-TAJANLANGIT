@@ -1,0 +1,54 @@
+/*Activity 4
+create a java program  that will get an input from the user then will determine either to use Options C->F or F->C.
+The user will be prompt again for an input(double) as the value for the temp to be converted.
+
+Options
+1. C->F
+2. F->C
+Enter choice: 1
+Enter Value: 20
+20 degrees Celsius = 68 degrees Fahrenheit
+*/
+    
+/*IRA JUDE TAJANLANGIT BSIS 2A*/
+
+import java.util.Scanner;
+
+public class TempConv {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.println("_ _ TEMPERATURE CONVERTER _ _\n");
+        System.out.println("Options:");
+        System.out.println("1 - Celsius to Fahrenheit");
+        System.out.println("2 - Fahrenheit to Celsius");
+        System.out.print("\nEnter Choice: ");
+        
+        int TempConv = Integer.parseInt(input.nextLine());
+        double celsius, fahrenheit;
+        
+        switch(TempConv){
+            
+            case 1:
+                System.out.print("Please Enter Value in  Celsius (°C): ");
+                celsius = Double.parseDouble(input.nextLine());
+                fahrenheit = (((9 * celsius) / 5) + 32);
+                System.out.println(celsius + " °C = " + fahrenheit + " °F");
+                break;
+                
+            case 2:
+                System.out.print("Please Enter Value in Fahrenheit (°F): ");
+                fahrenheit = Double.parseDouble(input.nextLine());
+                celsius = (((fahrenheit - 32) * 5) / 9);
+                System.out.println(fahrenheit + " °F = " + celsius + " °C");
+                break;
+                
+            default:
+                System.out.println("Invalid Input");
+        }
+
+
+    }
+}
