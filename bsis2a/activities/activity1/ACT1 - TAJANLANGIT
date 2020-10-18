@@ -1,0 +1,20 @@
+/*IRA JUDE TAJANLANGIT BSIS 2A */
+
+package declaringandprintingvariables;
+
+public class DeclaringandPrintingVariables {
+    
+    public static void main(String[] args) {
+        //variables
+        int number = 10;
+        char letter = 'a';
+        boolean result = true;
+        String str = "hello";
+        //output
+        System.out.print(" \nNumber = "+ number);
+        System.out.print("\nletter = " + letter);
+        System.out.print("\nresult = " + result);
+        System.out.print("\nstr = " + str);
+    }
+    
+}
