@@ -1,0 +1,42 @@
+//Jennie Rose Paitan BSIS 2-A BAD
+//Activity4: Create a java program that will get an input from the user then will determine either to use Options C->F or F->C.
+//The user will be prompt again for an input(double) as the value for the temp to be converted.
+
+package com.example.temperatureoption;
+
+import java.util.Scanner;
+
+public class TemperatureOption {
+    public static void main(String[] args){
+        Scanner input = new Scanner(System.in);
+        System.out.println("Options: ");
+        System.out.println("1. Celcius - Fahrenheit");
+        System.out.println("2. Fahrenheit - Celcius");
+        System.out.println("Please enter your choice: ");
+
+        int choice = input.nextInt();
+        double celcius, fahrenheit;
+
+        switch(choice){
+            case 1:
+                System.out.print("Please enter the temperature value in Celcius: ");
+                celcius = input.nextDouble();
+                fahrenheit = (((9*(celcius)/5) + 32));
+                System.out.println(celcius + " " + "degrees Celcius = " + fahrenheit + " " + "degrees Fahrenheit.");
+                break;
+
+            case 2:
+                System.out.println("Enter the temperature value in Fahrenheit: ");
+                fahrenheit = input.nextDouble();
+                celcius = (((fahrenheit - 32)*5)/9);
+                System.out.println(fahrenheit + " " + "degrees Fahrenheit = " + celcius + " " + "degrees Celcius.");
+                break;
+
+            default:
+                System.out.println("Invalid input. Please try again");
+                break;
+        }
+
+
+    }
+}
